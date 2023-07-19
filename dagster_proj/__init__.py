@@ -1,0 +1,1 @@
+from dagster_proj.definitions import defs as defs

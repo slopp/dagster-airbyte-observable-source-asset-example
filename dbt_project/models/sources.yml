@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: postgres_replica
+    database: postgres_replica
+    schema: public
+    tables:
+      - name: orders
+        identifier: _airbyte_raw_orders
+      - name: users
